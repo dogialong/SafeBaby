@@ -1,8 +1,15 @@
 <resources>
-    <string name="app_name">EUVOTE_LH</string>
-    <string name="find_out"><u>Find out</u></string>
-    <string name="text">Would you rather vote for your country to leave the EU or to remain</string>
-    <string name="howdid">How did your country vote?</string>
-    <string name="share">How Suprising ? Share now</string>
-    <string name="seeother">See other countries</string>
+    <string name="app_name">"Safe for kids"</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_title">Palais Garnier</string>
+    <string name="item_desc">The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+    </string>
+    <string name="detail_desc">Đây là câu hỏi tình huống
+    </string>
+    <string name="detail_location">"8 Rue Scribe, 75009 Paris, France"</string>
+    <string name="buttonQuestion">Question</string>
+    <string name="buttonFlashcard">Flash Cards</string>
+    <string name="buttonYes">Should</string>
+    <string name="buttonNo">Shouldnt</string>
 </resources>
