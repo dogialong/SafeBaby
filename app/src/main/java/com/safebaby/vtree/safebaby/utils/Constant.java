@@ -5,7 +5,18 @@ package com.safebaby.vtree.safebaby.utils;
  */
 public interface Constant {
 
-    String[] URLS = {
+    String [] URLS_PICNIC = {
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=fec55e532f738bd4c421b239918a876c/f5ee76094b36acaf0aacb7727dd98d1000e99cf4.jpg",
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=48422e39e850352ab16125006342fb1a/a13cf8dcd100baa1bfa066354610b912c9fc2eb4.jpg",
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=2d1268678c1001e94e3c1407880c7b06/ee170924ab18972b5ad92144e7cd7b899f510a59.jpg",
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=6f9ee8a14034970a47731027a5cbd1c0/a02e070828381f302e69ad27a8014c086f06f0c9.jpg",
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=ad5032c19f2f07085f052a08d925b865/b31101e93901213f92886e5255e736d12e2e9581.jpg",
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=72992644838ba61edfeec827713597cc/b900a18b87d6277f5d8312b629381f30e824fca8.jpg",
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=433f1f6f63d9f2d3201124e799ed8a53/dbdce71190ef76c69f24dba59c16fdfaae51674e.jpg",
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=7300c036d53f8794d3ff4826e21a0ead/189659ee3d6d55fb53be55a86c224f4a21a4ddc1.jpg",
+            "http://imgsrc.baidu.com/forum/w%3D580/sign=4c9c60b74a36acaf59e096f44cd88d03/6fdb81cb39dbb6fdd515c6a80824ab18962b37f6.jpg",
+    };
+    String[] URLS_HOME = {
             "http://cdn.llsapp.com/crm_test_1438658295447.jpg",
             "http://imgsrc.baidu.com/forum/w%3D580/sign=e8431073c2fdfc03e578e3b0e43e87a9/af8ea0ec08fa513d06288a533c6d55fbb3fbd9ba.jpg",
             "http://imgsrc.baidu.com/forum/w%3D580/sign=5a046dafc9fcc3ceb4c0c93ba244d6b7/5cd1f703918fa0ec15ee8580279759ee3d6ddb17.jpg",
@@ -39,5 +50,6 @@ public interface Constant {
             "http://imgsrc.baidu.com/forum/w%3D580/sign=4c9c60b74a36acaf59e096f44cd88d03/6fdb81cb39dbb6fdd515c6a80824ab18962b37f6.jpg",
 //
     };
+
 
 }

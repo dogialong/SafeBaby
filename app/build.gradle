@@ -34,4 +34,6 @@ dependencies {
     compile 'com.google.android.gms:play-services-appindexing:8.1.0'
     //Picasso xu li anh
     compile 'com.squareup.picasso:picasso:2.5.2'
+    //Load mavel
+    compile 'com.roger.catloadinglibrary:catloadinglibrary:1.0.1'
 }
