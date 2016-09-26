@@ -21,9 +21,9 @@ public class SplashScreen extends AppCompatActivity {
         btnPicnic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(SplashScreen.this,MainActivity.class);
-                i.putExtra("name_cate","picnic");
-                i.putExtra("name_url",Constant.URLS_PICNIC);
+                Intent i = new Intent(SplashScreen.this,SelectCateScreen.class);
+//                i.putExtra("name_cate","picnic");
+//                i.putExtra("name_url",Constant.URLS_PICNIC);
                 startActivity(i);
             }
         });

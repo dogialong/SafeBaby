@@ -11,7 +11,9 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import com.safebaby.vtree.safebaby.adapter.DataAdapter;
+import com.safebaby.vtree.safebaby.utils.Constant;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 import static com.safebaby.vtree.safebaby.utils.Constant.URLS_HOME;
@@ -40,9 +42,10 @@ public class SelectCateScreen extends Activity {
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), recyclerView, new ClickListener() {
             @Override
             public void onClick(View view, int position) {
-                Intent myIntent  = new Intent(SelectCateScreen.this,SelectModePlayScreen.class);
-                startActivity(myIntent);
-                overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
+                Intent i = new Intent(SelectCateScreen.this,MainActivity.class);
+                i.putExtra("name_cate",cate_names[position].toString());
+                i.putExtra("name_url", (Serializable) Constant.URLS_HOME);
+                startActivity(i);
             }
 
             @Override
