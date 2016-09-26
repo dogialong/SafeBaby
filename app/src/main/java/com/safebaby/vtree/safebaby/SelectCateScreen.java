@@ -14,7 +14,7 @@ import com.safebaby.vtree.safebaby.adapter.DataAdapter;
 
 import java.util.ArrayList;
 
-import static com.safebaby.vtree.safebaby.utils.Constant.URLS;
+import static com.safebaby.vtree.safebaby.utils.Constant.URLS_HOME;
 
 public class SelectCateScreen extends Activity {
     private RecyclerView recyclerView;
@@ -119,7 +119,7 @@ public class SelectCateScreen extends Activity {
         for (int i = 0; i < cate_names.length; i++) {
             AndroidVersion androidVersion = new AndroidVersion();
             androidVersion.setAndroid_version_name(cate_names[i]);
-            androidVersion.setAndroid_image_url(URLS[i]);
+            androidVersion.setAndroid_image_url(URLS_HOME[i]);
             android_version.add(androidVersion);
         }
         return android_version;
