@@ -183,12 +183,13 @@ public class MainActivity extends AppCompatActivity {
         File list[] = file.listFiles();
 
         try{
-           Picasso.with(getApplicationContext())
-                   .load("file://" + root_sd + File.separator + "picnic3").resize(96, 96).centerCrop()
-                   .into(imageView);
+            Picasso.with(getApplicationContext())
+                    .load("file://" + root_sd + File.separator + list[0].getName().toString()).resize(96, 96).centerCrop()
+                    .into(imageView);
         }catch (ArrayIndexOutOfBoundsException a){
 
-       }
+        }
+        Toast.makeText(getApplicationContext(),"file://" + root_sd + File.separator +list[2],Toast.LENGTH_LONG).show();
     }
 
     private boolean start() {
