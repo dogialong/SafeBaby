@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="#FFD47F">
+    <ImageView
+        android:id="@+id/img_tile_handbook"
+        android:layout_width="@dimen/_360sdp"
+        android:layout_height="@dimen/_280sdp"
+        android:background="@drawable/duoi"
+        android:layout_marginBottom="@dimen/_10sdp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_325sdp"
+        android:orientation="vertical"
+        android:background="#4D272421">
+        <TextView
+            android:id="@+id/txt_tile_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:text="@string/item_title"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/txt_content_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:text="@string/item_title"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+</LinearLayout>

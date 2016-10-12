@@ -18,7 +18,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar"
+        android:largeHeap="true">
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,12 +27,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SelectCateScreen" />
-        <activity android:name=".SelectPlayerScreen" />
-        <activity android:name=".SelectModePlayScreen" />
-        <activity android:name=".QuestionScreen" />
-        <activity android:name=".RoomMedalScreen"></activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".FlashCardScreen"/>
+        <activity android:name=".SelectModePlayScreen"/>
+        <activity android:name=".QuestionScreen"/>
+        <activity android:name=".HandbookCateScreen"/>
+        <activity android:name=".HandbookItemScreen"/>
+        <activity android:name=".QuestionCateScreen"/>
     </application>
 
 </manifest>

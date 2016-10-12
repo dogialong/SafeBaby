@@ -10,6 +10,4 @@
     <string name="detail_location">"8 Rue Scribe, 75009 Paris, France"</string>
     <string name="buttonQuestion">Question</string>
     <string name="buttonFlashcard">Flash Cards</string>
-    <string name="buttonYes">Should</string>
-    <string name="buttonNo">Shouldnt</string>
 </resources>

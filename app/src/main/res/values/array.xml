@@ -1,73 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="places">
-        <item>Trong nhà</item>
-        <item>Trường học</item>
-        <item>Sông nước</item>
-        <item>Đường phố</item>
-        <item>Rừng rậm</item>
-        <item>Công viên</item>
-    </string-array>
-    <string-array name="place_desc">
-        <item>The Palais Garnier which locates in Paris was built from 1861 for
-        the Paris Opera.
-        </item>
-        <item>Piazza del Duomo the cathedral which locates in Florence.</item>
-        <item>Manhattan is the district in New York City</item>
-        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
-        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
-        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
-    </string-array>
-    <string-array name="place_details">
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-        </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-        </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-        </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-        </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-        </item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
-        </item>
-    </string-array>
-    <array name="places_picture">
-        <item>@drawable/home</item>
-        <item>@drawable/school</item>
-        <item>@drawable/lake</item>
-        <item>@drawable/street</item>
-        <item>@drawable/forests</item>
-        <item>@drawable/park</item>
+    <array name="cate_handbook_picture">
+        <item>@drawable/sach_trongnha</item>
+        <item>@drawable/sach_duoinuoc</item>
+        <item>@drawable/sach_songnuoc</item>
+        <item>@drawable/sach_truonghoc</item>
+        <item>@drawable/sach_vatnuoi</item>
+        <item>@drawable/sach_tainan</item>
     </array>
+    <array name="cate_question_picture">
+        <item>@drawable/cate_trongnha</item>
+        <item>@drawable/cate_congvien</item>
+        <item>@drawable/cate_giaothong</item>
+        <item>@drawable/cate_rungram</item>
+        <item>@drawable/cate_songnuoc</item>
+    </array>
+    <array name="cate_flashcard_picture">
+        <item>@drawable/flash_trongnha</item>
+        <item>@drawable/flash_congvien</item>
+        <item>@drawable/flash_giaothong</item>
+        <item>@drawable/flash_rungram</item>
+        <item>@drawable/flash_songnuoc</item>
+        <item>@drawable/flash_thoitiet</item>
+    </array>
+    <array name="cate_item_handbook_picture">
+        <item>@drawable/item_bepga</item>
+        <item>@drawable/item_banla</item>
+        <item>@drawable/item_cauthang</item>
+        <item>@drawable/item_daokeo</item>
+        <item>@drawable/item_odien</item>
+    </array>
+    <string-array name="place_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+    </string-array>
 </resources>
